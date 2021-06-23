@@ -29,6 +29,7 @@ const DirectoryNavigator = createStackNavigator(
 				headerLeft: <Icon name="list" type="font-awesome" iconStyle={styles.stackIcon} onPress={() => navigation.toggleDrawer()} />,
 			}),
 		},
+		CampsiteInfo: { screen: CampsiteInfo },
 	},
 	{
 		initialRouteName: "Directory",
